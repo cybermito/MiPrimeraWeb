@@ -73,3 +73,46 @@ p {
 
 /* Agrega estilos adicionales según sea necesario */
 
+/* Estilos específicos para la sección de contacto */
+#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los elementos al centro */
+}
+
+#contacto ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#contacto ul li {
+    margin: 0 10px;
+}
+
+#contacto ul li a img {
+    max-width: 40px; /* Ajusta el tamaño de los logos según sea necesario */
+}
+
+/* Estilos generales para los iconos */
+.bi {
+    font-size: 24px; /* Ajusta el tamaño de todos los iconos según sea necesario */
+    margin-right: 5px; /* Añade un margen derecho para separar los iconos */
+  }
+  
+  /* Estilos específicos para los iconos de las redes sociales */
+  .bi-facebook {
+    color: #1877f2; /* Color de Facebook */
+  }
+  
+  .bi-twitter {
+    color: #1a1c1d; /* Color de Twitter */
+  }
+  
+  .bi-instagram {
+    color: #c13584; /* Color de Instagram */
+  }
+
+  .bi-githun {
+    color: #222022; /* Color de Instagram */
+  }
